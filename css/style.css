@@ -9,14 +9,14 @@
     width:95%;
     display:flex;
     flex-direction:column;
-    box-shadow: 0px 3px 5px 3px grey;
     margin:50px;
-    padding : 10px;
+    padding : 20px;
     box-sizing: border-box;
+    /* background: #E5E5E5; */
 }
 
 #message-layout {
-    min-height:50%;
+    max-height:60%;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -33,22 +33,31 @@
 .line{
     width: 60px;
     height:10px;
-    background: orange;
+    background: #D89616;
     border-radius: 5px;
-    align: center;
+    box-align: center;
     margin-left: 45%;
 }
 
 .center {
     text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #0D0C0C;
 }
 
 .image-section {
     /* background: url(../img/img1.png); 
     background-repeat:no-repeat;
     background-position:center; */
-    max-width:40%;
-    height:100vh;
+    /* max-width:40%;
+    height:100vh; */
+    width: 422px;
+    height: 496px;
 }
 
 .text-section {
@@ -63,7 +72,10 @@
 .form-section {
     height:100vh;
     width: 90%;
-    padding: 40px;   
+    padding: 40px;  
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 
 .form-row {
@@ -73,24 +85,30 @@
 }
 
 .form-row .input-box {
- width:90%;
+ width:100%;
 }
 
 .form-row .input-box input[type="text"] {
  width:100%;
- height: 40px;
+ height: 30px;
  padding: 0 10px;
- border: 2px solid #000;
+ background: #FFFFFF;
+ border: 1px solid #0D0C0C;
+ box-sizing: border-box;
+ border-radius: 5px;
 }
 
 .textarea-section {
-    width: 90%;   
+    width: 100%;   
 }
 
 .textarea-section textarea {
     width:100%;
     padding: 10px 10px;
-    border: 2px solid #000;
+    background: #FFFFFF;
+    border: 1px solid #0D0C0C;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .button-section {
@@ -99,10 +117,25 @@
 }
 
 .button-section button {
-    background: blue;
     padding: 8px 40px;
     border: none;
     color: white;
-    border-radius: 10px;
-    margin: 20px;
+    margin-top:10px;
+    width: 217px;
+    height: 40px;
+    left: 684px;
+    top: 1329px;
+    background: rgba(0, 77, 230, 0.76);
+    border-radius: 8px;
 }
+
+.contact_us{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    color: #0D0C0C;
+    margin-bottom:20px;
+}
+
