@@ -15,6 +15,15 @@
     /* background: #E5E5E5; */
 }
 
+p {
+     margin:15px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 21px;
+}
+
 #message-layout {
     max-height:60%;
     width:100%;
@@ -23,7 +32,7 @@
 }
 
 #info-layout {
-    max-height:50%;
+    max-height:40%;
     width:100%;
     display:flex;
     flex-direction: row;
@@ -46,7 +55,6 @@
     font-weight: normal;
     font-size: 30px;
     line-height: 35px;
-
     color: #0D0C0C;
 }
 
@@ -61,10 +69,7 @@
 }
 
 .text-section {
-    /* background: url(../img/img1.png); 
-    background-repeat:no-repeat;
-    background-position:center; */
-    height:100vh;
+    height:100%;
     min-width: 50%;
     max-width: 60%;
 }
